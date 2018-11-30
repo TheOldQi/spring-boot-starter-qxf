@@ -1,0 +1,10 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.xiafei.springboot.starter.HelloServiceAutoConfiguration,\
+  com.xiafei.springboot.starter.CorsAutoConfiguration,\
+  com.xiafei.springboot.starter.autoconfig.nosql.redis.JedisAutoConfigure,\
+  com.xiafei.springboot.starter.autoconfig.async.AsyncAutoConfigure,\
+  com.xiafei.springboot.starter.autoconfig.job.xxl.XxlJobAutoConfigure,\
+  com.xiafei.springboot.starter.autoconfig.message.rocketmq.RocketMqAutoConfigure,\
+  com.xiafei.springboot.starter.autoconfig.database.transaction.TransactionAutoConfigure,\
+  com.xiafei.springboot.starter.autoconfig.database.page.PageUtilAutoConfigure,\
+  com.xiafei.springboot.starter.autoconfig.mail.MailAutoConfigure
