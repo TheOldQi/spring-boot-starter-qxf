@@ -47,7 +47,7 @@ public class JedisClient {
     /**
      * redis 工具类初始化构造函数
      * <p> 允许Spring 注入静态使用,要求 redis地址必输,如果当前存在jedisCluster 则使用存在的不再初始化 </p>
-     * <p> redisAdress 表达格式要求 例 192.168.0.1:2080,192.168.0.1:2081</p>
+     * <p> redisAdress 表达格式要求 例 127.0.0.1:2080,127.0.0.1:2081</p>
      * <p> 注意：如果redisPassword为空，则构造函数尝试使用无密码创建客户端</p>
      *
      * @param redisAdress
