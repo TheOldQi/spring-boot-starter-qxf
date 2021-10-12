@@ -13,7 +13,7 @@
     <description>齐霞飞的starter项目</description>
     <properties>
         <spring.boot.version>2.1.0.RELEASE</spring.boot.version>
-        <xxl.job.core.version>1.9.1</xxl.job.core.version>
+        <xxl.job.core.version>2.3.0</xxl.job.core.version>
         <rocket.mq.client.version>3.2.6</rocket.mq.client.version>
         <!-- 插件管理 start -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
